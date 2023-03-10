@@ -4,20 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mídias em HTML5</title>
+    <title>Vídeo em HTML</title>
 </head>
 <body>
-    <h1>Imagem dinâmica</h1>
-    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor</p>
 
-    <picture>
-        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
-        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
-        <img src="imagens/foto-g.png" alt="imagem flexivel">
-
-    </picture>
-    <h1>Reproduzindo áudio</h1>
-    <p>Vamos aprender a reproduzir áudio</p>
-    <audio src="midia/rato.mp3" autoplay></audio>
+    <video controls poster="imagens/aviaofoto.png">
+        <source src="midia/Meuvideo1.mp4">
+        <source src="midia/Meuvideo2.mkv">
+        <source src="midia/Meuvideo3.webm">
+        <p>Seu navegador não tem compatibildade com reprodução de vídeos.</p>
+    </video>
+    <h1>Inserindo vídeos do Youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/OzUnqQk4eOg" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
 </body>
 </html>
