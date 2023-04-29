@@ -11,7 +11,7 @@ header{
 
 }
 
-#burger{
+span#burger{
     background-color: rgb(48, 48, 48);
     display: block;
     text-align: center;
@@ -20,7 +20,7 @@ header{
     cursor: pointer;
 }
 
-#burger:hover{
+span#burger:hover{
     background-color: white;
     color: black;
 }
@@ -42,14 +42,6 @@ menu > ul > li > a {
     color: white;
     border-top: 2px solid #949494;
 }
-
-
-/* menu li{
-    display: inline-block;
-    background-color: #575757;
-    padding: 10px;
-
-} */
 
 menu a:hover{
     background-color: rgba(126, 126, 126, 0.671);
